@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uJlMgenHKY3jHqjvqKT+G138vfngRAX5IXAubdYA1GY=",
+  "Source": "GTDV.Api",
+  "BasePath": "_content/GTDV.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

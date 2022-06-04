@@ -1,0 +1,14 @@
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\bin\Debug\net6.0\GTDV.Domain.deps.json
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\bin\Debug\net6.0\GTDV.Domain.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\bin\Debug\net6.0\GTDV.Domain.pdb
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.csproj.AssemblyReference.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.AssemblyInfoInputs.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.AssemblyInfo.cs
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\refint\GTDV.Domain.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.pdb
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\ref\GTDV.Domain.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\bin\Debug\net6.0\GTDV.Domain.runtimeconfig.json
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Domain\obj\Debug\net6.0\GTDV.Domain.genruntimeconfig.cache

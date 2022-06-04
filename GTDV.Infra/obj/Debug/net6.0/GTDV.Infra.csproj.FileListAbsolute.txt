@@ -1,0 +1,17 @@
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Infra.deps.json
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Infra.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Infra.pdb
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.csproj.AssemblyReference.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.AssemblyInfoInputs.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.AssemblyInfo.cs
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\refint\GTDV.Infra.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.pdb
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\ref\GTDV.Infra.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Domain.dll
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Domain.pdb
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.csproj.CopyComplete
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\bin\Debug\net6.0\GTDV.Infra.runtimeconfig.json
+C:\Users\Dowgu\Documents\Work\GestaoDeTimes\GTDV.Infra\obj\Debug\net6.0\GTDV.Infra.genruntimeconfig.cache

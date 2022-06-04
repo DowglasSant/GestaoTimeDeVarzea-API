@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Api\\GTDV.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Api\\GTDV.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Api\\GTDV.Api.csproj",
+        "projectName": "GTDV.Api",
+        "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Api\\GTDV.Api.csproj",
+        "packagesPath": "C:\\Users\\Dowgu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dowgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\GTDV.Application.csproj": {
+                "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\GTDV.Application.csproj"
+              },
+              "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj"
+              },
+              "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\GTDV.Infra.csproj": {
+                "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\GTDV.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\GTDV.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\GTDV.Application.csproj",
+        "projectName": "GTDV.Application",
+        "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\GTDV.Application.csproj",
+        "packagesPath": "C:\\Users\\Dowgu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dowgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj",
+        "projectName": "GTDV.Domain",
+        "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dowgu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dowgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\GTDV.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\GTDV.Infra.csproj",
+        "projectName": "GTDV.Infra",
+        "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\GTDV.Infra.csproj",
+        "packagesPath": "C:\\Users\\Dowgu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dowgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dowgu\\Documents\\Work\\GestaoDeTimes\\GTDV.Domain\\GTDV.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
