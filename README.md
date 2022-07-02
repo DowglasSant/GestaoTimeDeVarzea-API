@@ -17,3 +17,5 @@ Além dos rescursos e padrões:
 - SOLID
 - EntityFramework Core
 - Asp.Net Core
+- JWT
+- Identify
