@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using GestaoDeTimes.Entidades;
 using GTDV.Application.Interfaces;
+using GTDV.Domain.Pagination;
 using GTDV.Domain.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using Nest;
@@ -21,9 +22,9 @@ namespace GTDV.Application.Servicos
             this.repository = repository;
         }
 
-        public async Task<IEnumerable<Jogador>> ListarJogadores() 
+        public async Task<IEnumerable<Jogador>> ListarJogadores(JogadorParameters jogadorParameters) 
         {
-            var jogadores = await repository.ListarJogadores();
+            var jogadores = await repository.ListarJogadores(jogadorParameters);
 
             return jogadores;
         }

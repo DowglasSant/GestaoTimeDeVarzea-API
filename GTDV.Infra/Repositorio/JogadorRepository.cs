@@ -1,5 +1,6 @@
 ﻿using GestaoDeTimes.Context;
 using GestaoDeTimes.Entidades;
+using GTDV.Domain.Pagination;
 using GTDV.Domain.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -19,9 +20,12 @@ namespace GTDV.Infra.Repositorio
             this.jogadorContext = jogadorContext;
         }
 
-        public async Task<IEnumerable<Jogador>> ListarJogadores()
+        public async Task<IEnumerable<Jogador>> ListarJogadores(JogadorParameters jogadorParameters)
         {
-            return await jogadorContext.Jogador.ToListAsync();
+            return await jogadorContext.Jogador
+                .OrderBy(b => b.Nome)
+                .Skip((jogadorParameters.PageNumber - 1) * jogadorParameters.PageSize)
+                .Take(jogadorParameters.PageSize).ToListAsync();
         }
 
         public async Task<Jogador> JogadorPorId(int id)

@@ -1,4 +1,5 @@
 ﻿using GestaoDeTimes.Entidades;
+using GTDV.Domain.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace GTDV.Application.Interfaces
 {
     public interface IJogadorService
     {
-        public Task<IEnumerable<Jogador>> ListarJogadores();
+        public Task<IEnumerable<Jogador>> ListarJogadores(JogadorParameters jogadorParameters);
         public Task<Jogador> JogadorPorId(int id);
         public Task<IEnumerable<Jogador>> JogadorPorPosicao(string posicao);
         public Task<Jogador> AdicionarJogador(Jogador jogador);

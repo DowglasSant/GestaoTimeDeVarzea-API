@@ -1,11 +1,14 @@
 ﻿using GestaoDeTimes.Entidades;
 using GTDV.Application.Interfaces;
 using GTDV.Domain.DTO.JogadorDTO;
+using GTDV.Domain.Pagination;
 using GTDV.Domain.Repositorio;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GestaoDeTimes.Controladores
-{
+{   
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [Route("jogador")]
     [ApiController]
     public class ControladorJogadores : ControllerBase
@@ -18,9 +21,9 @@ namespace GestaoDeTimes.Controladores
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Jogador>> ListarJogadores()
+        public async Task<IEnumerable<Jogador>> ListarJogadores([FromQuery] JogadorParameters jogadorParameters)
         {
-            var jogadores = await jogadorService.ListarJogadores();
+            var jogadores = await jogadorService.ListarJogadores(jogadorParameters);
             return jogadores;
         }
 

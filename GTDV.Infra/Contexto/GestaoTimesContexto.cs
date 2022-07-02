@@ -1,10 +1,11 @@
 ﻿using GestaoDeTimes.Entidades;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using DbContext = Microsoft.EntityFrameworkCore.DbContext;
 
 namespace GestaoDeTimes.Context
 {
-    public class GestaoTimesContexto : DbContext
+    public class GestaoTimesContexto : IdentityDbContext
     {
         public GestaoTimesContexto(DbContextOptions<GestaoTimesContexto> options) : base(options)
         { }
